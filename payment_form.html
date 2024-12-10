@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Payment Form</title>
+
+</head>
+
+<body>
+    <!--<video src="solo levelling\VID_20220324_162343_550.mp4" width="699" controls></video>-->
+    <form action="">
+        <h1>Payment Form</h1>
+        <p>*Name: <input type="text" name="name" required>
+        </p>
+      <fieldset>
+       <legend>Gender</legend>
+        <p>
+            male <input type="radio" name="gender" id="male"> female <input type="radio" name="gender" id="female"> others <input type="radio" name="gender" id="others">
+        </p>
+      </fieldset>
+        <p>
+            Address: <textarea name="address" id="address" cols="24" rows="7"></textarea>
+        </p>
+        <p>
+            *Email id: <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            *DOB :
+            Date
+            <input type="date" name="date" id="date" required>
+           
+        </p>
+        
+        *Card:
+        <select name="Card_type" id="card" required>
+            <option value="" disabled selected>--Select a card--</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Any Debit Card">Any debit card</option>
+        </select>
+        
+        </p>
+        <p>*Card Number:<input type="number" name="number" id="number" required></p>
+        <p>
+            *Password:<input type="password" name="password" id="password" required>
+        </p>
+        <p>
+            *Expiry Date:<input type="date" name="date1" id="date1" required>
+        </p>
+        <p>
+            <input type="submit" value="Pay now">
+        </p>
+</body>
+
+</html>
